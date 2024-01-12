@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">RecyclerViewPractice</string>
+    <string-array name="bio_data_array">
+        <item>Enthusiastic software developer with a passion for creating innovative solutions.</item>
+        <item>Adventurous traveler who loves exploring new cultures and trying exotic foods.</item>
+        <item>Dedicated fitness enthusiast committed to a healthy and active lifestyle.</item>
+        <item>Aspiring artist who expresses creativity through various forms of visual arts.</item>
+        <item>Tech-savvy individual with a keen interest in the latest advancements in technology.</item>
+        <item>Passionate bookworm who enjoys diving into different genres of literature.</item>
+        <item>Nature lover and environmental advocate, actively involved in conservation efforts.</item>
+        <item>Talented musician skilled in playing multiple instruments and composing music.</item>
+        <item>Avid photographer capturing moments and emotions through the lens.</item>
+        <item>Curious learner always seeking to acquire new knowledge and skills.</item>
+        <item>Social justice advocate working towards a more inclusive and equitable society.</item>
+        <item>Foodie with a flair for cooking and experimenting with diverse cuisines.</item>
+        <item>Sports enthusiast actively participating in various athletic activities.</item>
+        <item>Humanitarian dedicated to volunteering and making a positive impact on communities.</item>
+        <item>Fashionista with a unique sense of style and a passion for fashion design.</item>
+        <item>Gamer and esports enthusiast with a competitive spirit.</item>
+        <item>Health and wellness guru promoting holistic well-being and mindfulness.</item>
+        <item>Creative storyteller who crafts compelling narratives through writing and storytelling.</item>
+        <item>Tech entrepreneur building innovative solutions to address real-world challenges.</item>
+        <item>Science aficionado fascinated by the wonders of the natural world.</item>
+    </string-array>
+    <string name="person1">person1</string>
+    <string name="person2">person2</string>
 </resources>

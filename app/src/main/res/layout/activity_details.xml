@@ -3,27 +3,36 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background ="@color/blueBlack">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="65dp"
-        android:layout_height="21dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="125dp"
-        android:layout_marginTop="89dp"
+        android:layout_marginTop="88dp"
         android:layout_marginEnd="221dp"
-        android:text="Hey there!"
+        android:text="Profile Information"
+        android:textColor="@color/tanAccent"
+        android:textSize="32dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tvnewperson"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="19dp"
+        android:layout_width="84dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginEnd="163dp"
         android:text="TextView"
+        android:textColor="@color/tanAccent"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -32,10 +41,52 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="132dp"
-        android:layout_marginTop="21dp"
-        android:layout_marginEnd="221dp"
+        android:layout_marginEnd="8dp"
         android:text="TextView"
+        android:textColor="@color/tanAccent"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.268"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="161dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvnewperson"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tvcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:foregroundGravity="center"
+        app:cardBackgroundColor="@color/blueBlack"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvnewperson" />
+        tools:layout_editor_absoluteY="181dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvnewage">
+
+        <ImageView
+            android:id="@+id/tvimage"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="@+id/tvcard"
+            app:layout_constraintTop_toTopOf="@+id/tvcard" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvbio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:text="TextView"
+        android:textColor="@color/tanAccent"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvcard" />
 </androidx.constraintlayout.widget.ConstraintLayout>

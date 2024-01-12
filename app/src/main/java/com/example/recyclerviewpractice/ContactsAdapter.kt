@@ -35,6 +35,9 @@ class ContactsAdapter(private val context: Context, private val contacts: List<P
             val intent = Intent(context, DetailsActivity::class.java).apply {
                 putExtra("contact_name", contact.name)
                 putExtra("contact_age", contact.age)
+                putExtra("contact_bio", contact.bio)
+                putExtra("contact_image", contact.imageid)
+                Log.i(TAG,"biodata in constacts adapter")
                 Log.i(TAG,"intent onbindviewholder $position")
             }
             context.startActivity(intent)
